@@ -109,3 +109,57 @@ body {
     font-size: 20px;
     line-height: 24px;
 }
+/* Стилі для першого мобільного пристрою */
+
+/* Заголовок */
+.how-h {
+    font-size: 24px;
+}
+
+/* Контейнер з відео */
+.how-video {
+    text-align: center;
+}
+
+/* Зображення */
+.img {
+    width: 100%;
+    max-width: 335px;
+    height: auto;
+}
+
+/* Опис */
+.how-deskrip {
+    margin-top: 20px;
+}
+
+/* Заголовок опису */
+.how-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* Список тексту */
+.how-text {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Елементи списку тексту */
+.text {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.text p {
+    margin-left: 10px;
+}
+
+/* Круглі елементи перед текстом */
+.use[href^="./images/icon.svg#icon-ellipse"] {
+    fill: #000;
+    width: 10px;
+    height: 10px;
+}
