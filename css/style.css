@@ -75,7 +75,17 @@ ul {
     background-color: #ffffff;
 }
 .how-made .how-h {
-    font-weight: 500;
+    margin-bottom: 72px;
+    color: #000000;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
     font-size: 20px;
-    line-height: 1.2;
+    line-height: 24px;
+}
+.how-video-element {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 72px;
 }
