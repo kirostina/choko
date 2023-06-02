@@ -134,13 +134,15 @@ body {
 /* Контейнер з відео */
 .how-video {
     text-align: center;
+    width: 335px;
+    height: 500px;
 }
 
 /* Зображення */
 .img {
     width: 100%;
     max-width: 335px;
-    height: auto;
+    height: 500px;
 }
 .img-v {
     border-radius: 15px;
