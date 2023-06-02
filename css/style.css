@@ -256,130 +256,117 @@ body {
 }  */
 
 /* Загальні стилі */
-.section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
-
-.container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
-
-/* Стилі для мобільної версії */
+/* Mobile Styles */
 @media (max-width: 767px) {
-    .how-made {
-        flex-direction: column;
-        align-items: center;
-    }
-
     .how-video {
-        order: 0;
-        margin-bottom: 20px;
-    }
-
-    .how-deskrip {
-        order: 1;
         text-align: center;
+        margin-bottom: 20px;
     }
 
     .img-v {
         width: 335px;
         height: 500px;
+        border-radius: 15px;
+    }
+
+    .how-title {
+        width: 171px;
+        height: 24px;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: -0.03em;
+        text-transform: uppercase;
+        color: #111111;
+    }
+
+    .how-text {
+        margin: 20px 0;
+    }
+
+    .text {
+        display: flex;
+        align-items: center;
     }
 }
 
-/* Стилі для планшетної версії */
+/* Tablet Styles */
 @media (min-width: 768px) and (max-width: 1023px) {
-    .how-video {
-        order: 0;
-        margin-right: 20px;
-    }
-
-    .how-deskrip {
-        order: 1;
-        text-align: left;
-    }
-
     .img-v {
         width: 614px;
         height: 400px;
-    }
-}
-
-/* Стилі для десктопної версії */
-@media (min-width: 1024px) {
-    .how-video {
-        order: 1;
-        margin-right: 20px;
+        border-radius: 15px;
     }
 
     .how-deskrip {
-        order: 0;
-        text-align: left;
+        margin-left: 77px;
+        margin-top: 20px;
+        margin-right: 77px;
     }
 
+    .how-text {
+        margin: 20px 0;
+    }
+
+    .text {
+        display: flex;
+        align-items: center;
+    }
+}
+
+/* Desktop Styles */
+@media (min-width: 1024px) {
     .img-v {
         width: 600px;
         height: 400px;
+        border-radius: 15px;
+    }
+
+    .how-deskrip {
+        margin-left: 20px;
+        margin-right: 32px;
+        margin-top: 50px;
+    }
+
+    .how-text {
+        margin: 20px 0;
+    }
+
+    .text {
+        display: flex;
+        align-items: center;
     }
 }
 
-/* Стилі для заголовка */
+/* Common Styles */
 .how-h {
-    font-family: 'Raleway', sans-serif;
-    font-weight: 800;
-    font-size: 36px;
-    line-height: 48px;
-    margin-bottom: 20px;
-    color: #111111;
+    width: fit-content;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .how-h-sec {
-    font-weight: 400;
-}
-
-/* Стилі для тексту */
-.how-title {
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 24px;
     color: #111111;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
 }
 
-.how-text {
-    list-style-type: none;
-    padding: 0;
-    margin-top: 20px;
-}
-
-.text {
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
-    color: #111111;
-}
-
-.text p {
-    margin-left: 10px;
-}
-
-/* Стилі для іконок */
 .use {
-    width: 20px;
-    height: 20px;
-    margin-right: 5px;
-    vertical-align: middle;
+    fill: #FFFFFF;
+    width: 24px;
+    height: 24px;
+}
+
+.how-deskrip {
+    background: #FFFFFF;
+    border-radius: 15px;
 }
