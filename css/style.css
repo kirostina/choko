@@ -1,372 +1,133 @@
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-    margin: 0;
+/* How its made Section */
+.how-its-made_section {
+    background-color: #ffffff;
 }
 
-ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-a {
-    color: currentColor;
-    text-decoration: none;
-}
-/* Загальні стилі */
-/* .section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.how-its-made_section-title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
     text-align: center;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    margin-bottom: 32px;
 }
 
-.container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.accent-section-title {
+    color: rgba(253, 146, 34, 1);
 }
 
-.list {
+.how-its-made_iframe-wrapper {
+    max-width: 335px;
+    height: 500px;
+    margin-bottom: 20px;
+}
+
+.how-its-made_video {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    border-color: transparent;
+    border: none;
+}
+
+.how-its-made_description-wrapper {
+    max-width: 335px;
+    padding: 20px 14px;
+    background: #ffffff;
+    border-radius: 15px;
+}
+
+.how-its-made_description {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.33;
+    margin-bottom: 20px;
+    letter-spacing: normal;
+}
+
+.how-its-made_list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-} */
-
-/* Стилі для мобільної версії */
-/* @media (max-width: 767px) {
-    .how-video {
-        order: 1;
-        margin-bottom: 20px;
-    }
-
-    .how-deskrip {
-        order: 2;
-    }
-} */
-
-/* Стилі для десктопної версії */
-/* @media (min-width: 768px) {
-    .how-made {
-        flex-direction: row;
-        align-items: flex-start;
-        justify-content: center;
-        text-align: left;
-    }
-
-    .how-video {
-        order: 0;
-        margin-right: 20px;
-    }
-
-    .how-deskrip {
-        order: 1;
-        text-align: left;
-    }
-
-    .how-text {
-        margin-top: 0;
-    }
-} */
-
-/* Стилі для іконок */
-/* .use {
-    width: 20px;
-    height: 20px;
-    margin-right: 5px;
-    vertical-align: middle;
-} */
-/* button {
-    cursor: pointer;
-    padding: 14px 40px;
-    border-radius: 100px;
-    font-weight: 600;
-}
-
-img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-}
-
-
-
-body {
-    margin: 0;
-
-    background-color: var(--clean-white);
-
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--primary-text);
-}
-
-.container {
-    min-width: 320px;
-    max-width: 428px;
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: 16px;
+    row-gap: 18px;
     padding-left: 16px;
 }
-    /* outline: auto; */
 
-/* Tablet styles & more */
-/* @media only screen and (min-width: 768px) {
-    .container {
-        max-width: 768px;
+.how-its-made_list-item {
+    position: relative;
+}
+
+.how-its-made_list-item::before {
+    content: '';
+    position: absolute;
+    display: inline-block;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+    left: -16px;
+    top: 5px;
+    background: #4c4c4c;
+    border: 1px solid #eceded;
+}
+
+@media screen and (min-width: 768px) {
+    .how-its-made_section .container {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    .how-its-made_description-wrapper {
+        padding: 32px;
+        max-width: 614px;
+    }
+
+    .how-its-made_iframe-wrapper {
+        max-width: 614px;
+        height: 400px;
+    }
+
+    .how-its-made_description {
+        margin-bottom: 28px;
+    }
+
+    .new-line-description {
+        display: block;
+    }
+
+    .how-its-made_list {
+        padding-right: 63px;
+    }
+
+    .how-its-made_section-title {
+        margin-bottom: 50px;
+        font-size: 24px;
+        line-height: 1.17;
     }
 }
 
-/* Desktop styles & more */
-/* @media only screen and (min-width: 1158px) {
-    .container {
-        min-width: 1158px;
+@media screen and (min-width: 1200px) {
+    .how-its-made_section .container {
         padding-left: 15px;
         padding-right: 15px;
     }
-}
-.list {
-    margin: 0;
-    padding: 0;
 
-    list-style: none;
-} 
-
-.link {
-    text-decoration: none;
-}
-
-
-.section {
-    padding-top: 96px;
-    padding-bottom: 96px;
-}
-
-@media only screen and (min-width: 1158px) {
-    .section {
-        padding-top: 120px;
-        padding-bottom: 120px;
-    }
-}
-
-.how-made {
-    background-color: #ffffff;
-} */
-/* .how-made .how-h {
-    margin-bottom: 72px;
-    color: #000000;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 24px;
-} */
-/* Стилі для першого мобільного пристрою */
-
-/* Заголовок */
-.how-h {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 24px;
-    font-size: 24px;
-    color: rgba(17, 17, 17, 1);
-    text-align: center;
-    letter-spacing: -0.03em;
-    text-transform: uppercase;
-}
-.how-h-sec {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 24px;
-    font-size: 24px;
-    color: rgba(253, 146, 34, 1);
-    text-align: center;
-    letter-spacing: -0.03em;
-    text-transform: uppercase;
-}
-
-/* Контейнер з відео */
-/* .how-video {
-    text-align: center;
-    width: 335px;
-    height: 500px;
-} */
-
-/* Зображення */
-/* .img {
-    width: 100%;
-    max-width: 335px;
-    height: 500px;
-}
-.img-v {
-    border-radius: 15px;
-} */
-
-/* Опис */
-/* .how-deskrip {
-    margin-top: 20px;
-    background: #FFFFFF;
-    border-radius: 15px;
-} */
-
-/* Заголовок опису */
-/* .how-title {
-    font-size: 18px;
-    margin-bottom: 10px;
-} */
-
-/* Список тексту */
-/* .how-text {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-} */
-
-/* Елементи списку тексту */
-/* .text {
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
-} */
-
-/* .text p {
-    margin-left: 10px;
-} */
-
-/* Круглі елементи перед текстом */
-/* .use[href^="./images/icon.svg#icon-ellipse"] {
-    fill: #000;
-    width: 10px;
-    height: 10px;
-}  */
-
-/* Загальні стилі */
-/* Mobile Styles */
-@media (max-width: 767px) {
-    .how-video {
-        text-align: center;
-        margin-bottom: 20px;
-    }
-
-    .img-v {
-        width: 335px;
-        height: 500px;
-        border-radius: 15px;
-    }
-
-    .how-title {
-        width: 171px;
-        height: 24px;
-        font-family: 'Montserrat', sans-serif;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 20px;
-        line-height: 24px;
-        text-align: center;
-        letter-spacing: -0.03em;
-        text-transform: uppercase;
-        color: #111111;
-    }
-
-    .how-text {
-        margin: 20px 0;
-    }
-
-    .text {
+    .how-its-made_row {
+        column-gap: 20px;
         display: flex;
-        align-items: center;
-    }
-}
-
-/* Tablet Styles */
-@media (min-width: 768px) and (max-width: 1023px) {
-    .img-v {
-        width: 614px;
-        height: 400px;
-        border-radius: 15px;
+        justify-content: space-between;
     }
 
-    .how-deskrip {
-        margin-left: 77px;
-        margin-top: 20px;
-        margin-right: 77px;
+    .how-its-made_iframe-wrapper {
+        flex-grow: 1;
+        margin-bottom: 0;
     }
 
-    .how-text {
-        margin: 20px 0;
+    .how-its-made_list {
+        row-gap: 24px;
+        padding-right: 20px;
     }
 
-    .text {
-        display: flex;
-        align-items: center;
+    .how-its-made_description-wrapper {
+        max-width: 516px;
     }
-}
-
-/* Desktop Styles */
-@media (min-width: 1024px) {
-    .img-v {
-        width: 600px;
-        height: 400px;
-        border-radius: 15px;
-    }
-
-    .how-deskrip {
-        margin-left: 20px;
-        margin-right: 32px;
-        margin-top: 50px;
-    }
-
-    .how-text {
-        margin: 20px 0;
-    }
-
-    .text {
-        display: flex;
-        align-items: center;
-    }
-}
-
-/* Common Styles */
-.how-h {
-    width: fit-content;
-    margin: 0 auto;
-    text-align: center;
-}
-
-.list {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.how-h-sec {
-    color: #111111;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 800;
-}
-
-.use {
-    fill: #FFFFFF;
-    width: 24px;
-    height: 24px;
-}
-
-.how-deskrip {
-    background: #FFFFFF;
-    border-radius: 15px;
 }
