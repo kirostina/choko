@@ -113,7 +113,22 @@ body {
 
 /* Заголовок */
 .how-h {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
     font-size: 24px;
+    color: rgba(17, 17, 17, 1);
+}
+.how-h-sec {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    font-size: 24px;
+    color: rgba(253, 146, 34, 1);
 }
 
 /* Контейнер з відео */
@@ -127,10 +142,15 @@ body {
     max-width: 335px;
     height: auto;
 }
+.img-v {
+    border-radius: 15px;
+}
 
 /* Опис */
 .how-deskrip {
     margin-top: 20px;
+    background: #FFFFFF;
+    border-radius: 15px;
 }
 
 /* Заголовок опису */
