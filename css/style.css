@@ -19,7 +19,7 @@ a {
     text-decoration: none;
 }
 /* Загальні стилі */
-.section {
+/* .section {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -37,10 +37,10 @@ a {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-}
+} */
 
 /* Стилі для мобільної версії */
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
     .how-video {
         order: 1;
         margin-bottom: 20px;
@@ -49,10 +49,10 @@ a {
     .how-deskrip {
         order: 2;
     }
-}
+} */
 
 /* Стилі для десктопної версії */
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
     .how-made {
         flex-direction: row;
         align-items: flex-start;
@@ -73,15 +73,15 @@ a {
     .how-text {
         margin-top: 0;
     }
-}
+} */
 
 /* Стилі для іконок */
-.use {
+/* .use {
     width: 20px;
     height: 20px;
     margin-right: 5px;
     vertical-align: middle;
-}
+} */
 /* button {
     cursor: pointer;
     padding: 14px 40px;
@@ -254,3 +254,132 @@ body {
     width: 10px;
     height: 10px;
 }  */
+
+/* Загальні стилі */
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Стилі для мобільної версії */
+@media (max-width: 767px) {
+    .how-made {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .how-video {
+        order: 0;
+        margin-bottom: 20px;
+    }
+
+    .how-deskrip {
+        order: 1;
+        text-align: center;
+    }
+
+    .img-v {
+        width: 335px;
+        height: 500px;
+    }
+}
+
+/* Стилі для планшетної версії */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .how-video {
+        order: 0;
+        margin-right: 20px;
+    }
+
+    .how-deskrip {
+        order: 1;
+        text-align: left;
+    }
+
+    .img-v {
+        width: 614px;
+        height: 400px;
+    }
+}
+
+/* Стилі для десктопної версії */
+@media (min-width: 1024px) {
+    .how-video {
+        order: 1;
+        margin-right: 20px;
+    }
+
+    .how-deskrip {
+        order: 0;
+        text-align: left;
+    }
+
+    .img-v {
+        width: 600px;
+        height: 400px;
+    }
+}
+
+/* Стилі для заголовка */
+.how-h {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 48px;
+    margin-bottom: 20px;
+    color: #111111;
+}
+
+.how-h-sec {
+    font-weight: 400;
+}
+
+/* Стилі для тексту */
+.how-title {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #111111;
+}
+
+.how-text {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    color: #111111;
+}
+
+.text p {
+    margin-left: 10px;
+}
+
+/* Стилі для іконок */
+.use {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
