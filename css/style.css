@@ -1,4 +1,32 @@
 /* How its made Section */
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+.container {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (min-width: 375px) {
+    .container {
+        max-width: 365px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 734px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .container {
+        max-width: 1166px;
+    }
+}
 .how-its-made_section {
     background-color: #ffffff;
 }
