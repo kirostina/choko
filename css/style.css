@@ -27,11 +27,11 @@ body {
         max-width: 1166px;
     }
 }
-.how-its-made_section {
+.how-its-made-section {
     background-color: #ffffff;
 }
 
-.how-its-made_section-title {
+.how-its-made-h {
     font-weight: 600;
     font-size: 20px;
     line-height: 1.2;
@@ -41,17 +41,17 @@ body {
     margin-bottom: 32px;
 }
 
-.accent-section-title {
+.how-its-hh {
     color: rgba(253, 146, 34, 1);
 }
 
-.how-its-made_iframe-wrapper {
+.made-video {
     max-width: 335px;
     height: 500px;
     margin-bottom: 20px;
 }
 
-.how-its-made_video {
+.how-its-made-video {
     width: 100%;
     height: 100%;
     border-radius: 15px;
@@ -59,14 +59,14 @@ body {
     border: none;
 }
 
-.how-its-made_description-wrapper {
+.made-text {
     max-width: 335px;
     padding: 20px 14px;
     background: #ffffff;
     border-radius: 15px;
 }
 
-.how-its-made_description {
+.made-text-h {
     font-weight: 600;
     font-size: 18px;
     line-height: 1.33;
@@ -74,18 +74,18 @@ body {
     letter-spacing: normal;
 }
 
-.how-its-made_list {
+.made-list {
     display: flex;
     flex-wrap: wrap;
     row-gap: 18px;
     padding-left: 16px;
 }
 
-.how-its-made_list-item {
+.made-list-item {
     position: relative;
 }
 
-.how-its-made_list-item::before {
+.made-list-item::before {
     content: '';
     position: absolute;
     display: inline-block;
@@ -99,34 +99,34 @@ body {
 }
 
 @media screen and (min-width: 768px) {
-    .how-its-made_section .container {
+    .how-its-made-section .container {
         padding-left: 60px;
         padding-right: 60px;
     }
 
-    .how-its-made_description-wrapper {
+    .made-text {
         padding: 32px;
         max-width: 614px;
     }
 
-    .how-its-made_iframe-wrapper {
+    .made-video {
         max-width: 614px;
         height: 400px;
     }
 
-    .how-its-made_description {
+    .made-text-h {
         margin-bottom: 28px;
     }
 
-    .new-line-description {
+    .made-next-line {
         display: block;
     }
 
-    .how-its-made_list {
+    .made-list {
         padding-right: 63px;
     }
 
-    .how-its-made_section-title {
+    .how-its-made-h {
         margin-bottom: 50px;
         font-size: 24px;
         line-height: 1.17;
@@ -134,28 +134,28 @@ body {
 }
 
 @media screen and (min-width: 1200px) {
-    .how-its-made_section .container {
+    .how-its-made-section .container {
         padding-left: 15px;
         padding-right: 15px;
     }
 
-    .how-its-made_row {
+    .made-div {
         column-gap: 20px;
         display: flex;
         justify-content: space-between;
     }
 
-    .how-its-made_iframe-wrapper {
+    .made-video {
         flex-grow: 1;
         margin-bottom: 0;
     }
 
-    .how-its-made_list {
+    .made-list {
         row-gap: 24px;
         padding-right: 20px;
     }
 
-    .how-its-made_description-wrapper {
+    .made-text {
         max-width: 516px;
     }
 }
