@@ -159,3 +159,9 @@ body {
         max-width: 516px;
     }
 }
+
+.features-video {
+    position: relative;
+    border-radius: 15px;
+    overflow: hidden;
+}
