@@ -165,3 +165,16 @@ body {
     border-radius: 15px;
     overflow: hidden;
 }
+.plyr__control--overlaid {
+    /*  Встановлюємо стилі для кнопки play  */
+    --plyr-control-spacing: 5px;
+    --plyr-video-control-background-hover: rgba(0, 0, 0, 0);
+    border: 1px solid #fff;
+}
+.plyr--paused.plyr__control--overlaid {
+    opacity: 0;
+}
+/* Приховуємо панель з елементами управління перед активацією програвання відео */
+.plyr--paused.plyr--stopped .plyr__controls {
+    opacity: 0;
+}
