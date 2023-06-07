@@ -183,3 +183,28 @@ body {
         max-width: 516px;
     }
 }
+
+
+/* Стилі для мобільного пристрою */
+@media (max-width: 767px) {
+    .how-its-made-video {
+        background-image: url(./images/how_its_made/how@3x.jpg);
+        /* додаткові стилі для мобільного пристрою */
+    }
+}
+
+/* Стилі для планшетного пристрою */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .how-its-made-video {
+        background-image: url(./images/how_its_made/how@2x.jpg);
+        /* додаткові стилі для планшетного пристрою */
+    }
+}
+
+/* Стилі для десктопного пристрою */
+@media (min-width: 1024px) {
+    .how-its-made-video {
+        background-image: url(./images/how_its_made/how@3x.jpg);
+        /* додаткові стилі для десктопного пристрою */
+    }
+}
