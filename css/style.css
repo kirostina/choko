@@ -187,20 +187,23 @@ body {
 /* Стилі для мобільного пристрою */
 @media (max-width: 767px) {
     .how-its-made-video {
-        content: url(./images/how_its_made/how@3x.jpg);
+        width: 100%;
+        /* Зміна ширини зображення для мобільного пристрою */
     }
 }
 
 /* Стилі для планшетного пристрою */
 @media (min-width: 768px) and (max-width: 1023px) {
     .how-its-made-video {
-        content: url(./images/how_its_made/how@2x.jpg);
+        width: 50%;
+        /* Зміна ширини зображення для планшетного пристрою */
     }
 }
 
 /* Стилі для десктопного пристрою */
 @media (min-width: 1024px) {
     .how-its-made-video {
-        content: url(./images/how_its_made/how@3x.jpg);
+        width: 30%;
+        /* Зміна ширини зображення для десктопного пристрою */
     }
 }
